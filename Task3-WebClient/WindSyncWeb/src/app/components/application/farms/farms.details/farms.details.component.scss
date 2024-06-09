@@ -1,0 +1,79 @@
+mat-card {
+    min-width: 400px;
+
+    td {
+        font-size: 18px;
+    }
+
+    td:first-child {
+        padding-right: 40px ;
+    }
+
+    mat-card-actions {
+        justify-content: flex-end;
+        gap: 5px
+    }
+
+    mat-card-subtitle {
+        color: black;
+    }
+
+    mat-divider {
+        margin: 15px 0;
+    }
+}
+
+.farm-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+
+    div {
+        width: 70%;
+    }
+}
+
+.turbines-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+tr.example-detail-row {
+    height: 0;
+}
+
+tr.example-element-row:not(.example-expanded-row):hover {
+    background: whitesmoke;
+}
+
+tr.example-element-row:not(.example-expanded-row):active {
+    background: #efefef;
+}
+
+.example-element-row td {
+    border-bottom-width: 0;
+}
+
+.example-element-detail {
+    overflow: hidden;
+    display: flex;
+}
+
+.example-element-symbol {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: normal;
+}
+
+.example-element-description {
+    padding: 16px;
+    width: 100%;
+}
+
+.example-element-description-attribution {
+    opacity: 0.5;
+}
